@@ -1,0 +1,36 @@
+{
+  "metadata": [
+    {
+      "src": [
+        {
+          "files": [ "**/*.sln" ],
+          "exclude": [ "**/bin/**", "**/obj/**" ],
+          "src": "src"
+        }
+      ],
+      "dest": "obj/contracts",
+      "filter": "filter.yml"
+    }
+  ],
+  "build": {
+    "content": [
+      {
+        "files": [ "**/*.yml" ],
+        "src": "obj/contracts",
+        "dest": "contracts"
+      },
+      {
+        "files": ["*.md", "toc.yml", "restapi/**" ]
+      }
+    ],
+    "resource": [],
+    "overwrite": "specs/*.md",
+    "globalMetadata": {
+      "_appTitle": "docfx seed website",
+      "_enableSearch": true
+    },
+    "markdownEngineName": "markdig",
+    "dest": "_site",
+    "xrefService": [ "https://xref.docs.microsoft.com/query?uid={uid}" ]
+  }
+}

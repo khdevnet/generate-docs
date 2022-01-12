@@ -1,0 +1,13 @@
+apiRules:
+- include:
+      uidRegex: ^PetStore\.Abstraction\..*$
+      type: Namespace
+- include:
+      uidRegex: ^PetStore\.Domain\.Entities\.*$
+      type: Namespace
+- include:
+      uidRegex: ^PetStore\.Domain\.Handlers\.*$
+      type: Namespace
+- exclude:
+      uidRegex: .*
+      type: Namespace
