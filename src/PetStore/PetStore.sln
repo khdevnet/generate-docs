@@ -3,11 +3,16 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31912.275
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PetStore.Api", "PetStore.Api\PetStore.Api.csproj", "{7C6BEC65-A1CC-4EBF-96DB-867146A36BAD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PetStore.Api", "PetStore.Api\PetStore.Api.csproj", "{7C6BEC65-A1CC-4EBF-96DB-867146A36BAD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PetStore.Domain", "PetStore.Domain\PetStore.Domain.csproj", "{60BFA458-8C0B-4642-A6C6-40F642420B01}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PetStore.Domain", "PetStore.Domain\PetStore.Domain.csproj", "{60BFA458-8C0B-4642-A6C6-40F642420B01}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PetStore.Abstraction", "PetStore.Abstraction\PetStore.Abstraction.csproj", "{17CE9A83-3821-427F-9AF7-1AA3C75ACB12}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PetStore.Abstraction", "PetStore.Abstraction\PetStore.Abstraction.csproj", "{17CE9A83-3821-427F-9AF7-1AA3C75ACB12}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{6614D5AD-99D0-499F-B7E0-01FA9393108C}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

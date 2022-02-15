@@ -4,6 +4,6 @@
     {
         public Guid Id { get; set; }
         public decimal Price { get; set; }
-        public string Summary { get; set; }
+        public string? Summary { get; set; }
     }
 }

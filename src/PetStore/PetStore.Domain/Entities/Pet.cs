@@ -5,7 +5,7 @@
         /// <remarks>
         /// Length: 0-256
         /// </remarks>
-        public string Name { get; set; }
+        public string? Name { get; set; }
 
         /// <remarks>
         /// Range: 1-20

@@ -1,4 +1,4 @@
-namespace PetStore.Abstraction.ApiContracts
+﻿namespace PetStore.Abstraction.ApiContracts
 {
     public class WeatherForecast
     {
