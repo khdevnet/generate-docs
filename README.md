@@ -14,6 +14,11 @@ docfx --serve
 ```
 (Get-Command PetStore.Api.dll).FileVersionInfo.FileVersion
 ```
+### Set version on build
+```
+dotnet build --configuration Release /p:Version=1.2.3-preview2-final
+```
 
 ## Resources
 [Doc fx](https://dotnet.github.io/docfx/index.html)
+[dotnet version](https://andrewlock.net/version-vs-versionsuffix-vs-packageversion-what-do-they-all-mean/)
